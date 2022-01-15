@@ -1,0 +1,19 @@
+.contenedor{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+.item{
+    background-color: #ACD900;
+    display: grid;
+    justify-items: end; 
+    align-items: end;
+}
+
+.item span{
+    background-color: #61a91d;
+    font-size: 2rem; 
+}

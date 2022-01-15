@@ -1,0 +1,15 @@
+.contenedor{
+    border: 5px solid black;
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: minmax(30px,300px) 200px minmax(60px,250px);
+    grid-template-rows: repeat(3,auto);
+    place-content: center;
+}
+
+.item{
+    font-size: 2rem; 
+    border: 5px solid red;
+
+}
+

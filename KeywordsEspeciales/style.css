@@ -1,0 +1,22 @@
+.contenedor{
+    border: 5px solid black;
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+}
+
+.contenedor2{
+    border: 5px solid black;
+    background-color: burlywood;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+}
+
+.item{
+    font-size: 2rem; 
+    border: 5px solid red;
+}
+

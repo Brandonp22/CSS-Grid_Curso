@@ -1,0 +1,12 @@
+.contenedor{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 10px; 
+}
+
+.item{
+    background-color: #acd900;
+    font-size: 2rem;
+}
